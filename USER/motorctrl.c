@@ -28,6 +28,7 @@ void ctrlmotor(double Vx, double Vy, double omega,int dir1,int dir2,int dir3,int
 		rtU.tspd2=-rtU.tspd2;
 	if(dir4==1)
 		rtU.tspd3=-rtU.tspd3;
+	mult=1;
 }
 
 void cala_d(int i){
